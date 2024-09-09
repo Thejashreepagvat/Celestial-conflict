@@ -109,6 +109,7 @@ def draw_score():
     
 #GENERAL SETUP
 pygame.init()
+pygame.mixer.init()
 window_width=1280
 window_height=720
 display_surface=pygame.display.set_mode((window_width,window_height))
